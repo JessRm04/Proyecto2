@@ -1,0 +1,43 @@
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+
+*{
+    margin:2;
+    padding: 2;
+}
+
+body{
+    background:scroll;
+    background-color:aquamarine;
+    }
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   background-color: bisque;
+   height: 65px;
+}
+
+h4{
+    padding-left: 100px;
+    padding-top: 18px;
+    margin: 3px;
+}
+
+nav ul{
+    padding-top: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+nav ul li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    font-size: 40px;
+    color
+}
