@@ -1,43 +1,128 @@
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
-
 *{
-    margin:2;
-    padding: 2;
+    margin: 2px;
+    padding: 2px;
 }
 
 body{
     background:scroll;
-    background-color:aquamarine;
-    }
+    background-color:rgb(255, 255, 255);
+    padding-top: 0px;
+    margin-top:0px;
+}
 
 nav{
    display: flex;
-   justify-content: space-between;
-   background-color: bisque;
    height: 65px;
+   margin: 0px;
+   padding: 0px;
+   background-color: rgb(255, 255, 255);
+   width: 100%;
+   text-decoration: none;
+   position:fixed;
+   box-shadow: 0px 0px 5px 0px #999;
 }
 
-h4{
-    padding-left: 100px;
-    padding-top: 18px;
-    margin: 3px;
+nav a{
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    text-decoration: none;
+    color:rgb(24, 24, 24);
+    
+}
+
+.logo-container{
+    display: flex;
+    justify-content:end;
+    padding-top: 6px;
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    width: 300px;
+    color:black;
+}
+
+.logo{
+    color:black;
 }
 
 nav ul{
-    padding-top: 0px;
-    margin-top: 0px;
     display: flex;
-    justify-content: end;
-    list-style: none;
+    justify-content: flex-end;
+    width: 996px;
 }
 
 nav ul li{
-    padding-left: 15px;
-    padding-right: 15px;
+    display: flex;
+    flex-direction: flex-end;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
+
 nav ul li a{
+    padding-left: 20px;
+    padding-top: 2px;
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
     text-decoration:none;
-    font-size: 40px;
-    color
+    
+} 
+
+.nav-item{
+    display: flex;
+    flex-direction: flex-end;
+    text-decoration:none;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    color:black;
+}
+
+
+.nav-item:hover{
+    color:blue;
+}
+
+.button-container{
+    width: 170px;
+    padding: 10px;
+    margin: 8px;
+    height: 10px;
+    left: 148px;
+    top: 180px;
+    background: #2B59FF;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+}
+
+.button{
+    color:rgb(255, 255, 255);
+}
+
+.button-tamaño:hover{
+    color:dimgrey
+}
+
+
+    
+   
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    nav {
+        height: 120px;
+        flex-direction: column;
+        text-align: center;
+    }
 }
