@@ -112,17 +112,37 @@ nav ul li a{
 }
 
 
-    
-   
-
-
-
-
-
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 380px) {
     nav {
-        height: 120px;
+        height: 180px;
+        width: 360px;
         flex-direction: column;
         text-align: center;
+        align-self: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    nav ul {
+        height: 120px;
+        width: 360px;
+        flex-direction: column;
+        text-align: center;
+       
+    }
+    .nav-item {
+        display:flex;
+        justify-self: center;
+        padding-left: 120px;
+    }
+    .logo {
+        display:flex;
+        justify-content: center;
+        padding-right: 80px;
+    }
+    .button-container {
+        display:flex;
+        justify-self: center;
+        margin-left: 90px;
     }
 }
