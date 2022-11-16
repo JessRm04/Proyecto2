@@ -8,6 +8,7 @@ body{
     background-color:rgb(255, 255, 255);
     padding-top: 0px;
     margin-top:0px;
+    margin-left: 0px;
 }
 
 nav{
@@ -145,4 +146,47 @@ nav ul li a{
         justify-self: center;
         margin-left: 90px;
     }
+}
+
+.pag1-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    margin-top: 240px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 150px;
+    justify-content: space-around;
+}
+
+.text-pag1-container{
+    color:black;
+    width: 700px;
+    padding-left: 200px;
+}
+
+.media-pag1-container{
+    display: flex;
+    align-items: center;
+}
+
+.talento {
+    font-family: Newsreader;
+    font-size: 80px;
+    color: #212529; 
+    width: 600px;
+}
+
+.oportunidad{
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: light;
+    color: #748490;
+    padding-top: 10px;
+    }
+
+.circulo{
+    padding-right: 400px;
+    padding-left: 150px;
 }
