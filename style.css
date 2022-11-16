@@ -153,11 +153,12 @@ nav ul li a{
     flex-direction: row;
     align-items: center;
     justify-self: center;
-    margin-top: 240px;
+    margin-top: 180px;
     margin-left: 100px;
     margin-right: 100px;
     padding-left: 150px;
     justify-content: space-around;
+    width: 600px;
 }
 
 .text-pag1-container{
@@ -169,6 +170,7 @@ nav ul li a{
 .media-pag1-container{
     display: flex;
     align-items: center;
+    width: 300px;
 }
 
 .talento {
@@ -187,6 +189,12 @@ nav ul li a{
     }
 
 .circulo{
+    position:relative;
     padding-right: 400px;
     padding-left: 150px;
+   }
+
+.animacion-movil{
+    background-color:aqua;
+    width: 100px;
 }
