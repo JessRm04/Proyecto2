@@ -3,6 +3,10 @@
     padding: 2px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 header{
   margin-top: 0%;
   margin-left: 0%;
@@ -95,7 +99,6 @@ nav ul li a{
     color:black;
 }
 
-
 .nav-item:hover{
     color:blue;
 }
@@ -118,8 +121,10 @@ nav ul li a{
     text-decoration:none;
 }
 
-.button-tamaño:hover{
-    color:dimgrey
+.button:hover{
+    color:rgba(255, 255, 255, 0.859);
+    transition: 0.2s;
+    background: linear-gradient(to right, blue, rgb(255, 52, 208));
 }
 
 
@@ -223,7 +228,7 @@ nav ul li a{
     position: absolute;
     width: 245px;
     height: 549px;
-    margin-top: 218px;
+    margin-top: 148px;
     margin-left: 287px;
     border-radius: 8%;
     -webkit-animation: color-change-5x 8s linear infinite alternate both;
@@ -313,7 +318,7 @@ nav ul li a{
    /***** PAG-3 *****/
 
    .pag-3{
-    height: 850px;
+    height: 800px;
     width: 700px;
    }
 
@@ -334,12 +339,12 @@ nav ul li a{
 
   .movil-pg3{
     position: relative;
-    margin-top: 200px;
+    margin-top: 130px;
     margin-left: 150px;
   }
 
   .contenedor-filas{
-      margin-top: 250px;
+      margin-top: 200px;
       
       
   }
@@ -364,21 +369,21 @@ nav ul li a{
   width: 90px;
   }
 
-  .pag-3-item2{
-    margin-left: 130px;
-    width: 120px;
-    padding-bottom: 0px;
-    }
+.pag-3-item2{
+  margin-left: 130px;
+  width: 120px;
+  padding-bottom: 0px;
+  }
 
-  .pag-3-item3{
-    margin-left: 150px;
-    width: 90px;
-    }
+.pag-3-item3{
+  margin-left: 150px;
+  width: 90px;
+  }
 
-  .pag-3-item4{
-    margin-left: 150px;
-    width: 88px;
-    }
+.pag-3-item4{
+  margin-left: 150px;
+  width: 88px;
+  }
 
 .fila-2 {
   padding-top: 40px;
