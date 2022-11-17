@@ -274,7 +274,7 @@ nav ul li a{
   /***** PAG-2 *****/
 
   .pag-2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./laptop-2557572_1920.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/laptop-2557572_1920.jpg);
     height: 850px;
   }
 
@@ -324,7 +324,7 @@ nav ul li a{
 
    .pag-3-container{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
    }
 
   .fila-1{
@@ -345,8 +345,6 @@ nav ul li a{
 
   .contenedor-filas{
       margin-top: 200px;
-      
-      
   }
 
   h3{
