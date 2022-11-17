@@ -1,6 +1,13 @@
 *{
-    margin: 2px;
+    margin: 0px 0px 0px 0px;
     padding: 2px;
+}
+
+header{
+  margin-top: 0%;
+  margin-left: 0%;
+  padding-top: 0%;
+  padding-left: 0%;
 }
 
 body{
@@ -9,18 +16,23 @@ body{
     padding-top: 0px;
     margin-top:0px;
     margin-left: 0px;
+    min-height: 100vh;
 }
+
+/***** NAVBAR *****/
 
 nav{
    display: flex;
-   height: 65px;
+   height: 67px;
    margin: 0px;
    padding: 0px;
+   padding-top: 0px;
    background-color: rgb(255, 255, 255);
-   width: 100%;
+   width: 1515px;
    text-decoration: none;
    position:fixed;
    box-shadow: 0px 0px 5px 0px #999;
+   z-index: 1;
 }
 
 nav a{
@@ -47,12 +59,14 @@ nav a:hover{
 
 .logo{
     color:black;
+    font-size: 25px;
 }
 
 nav ul{
     display: flex;
     justify-content: flex-end;
     width: 996px;
+    
 }
 
 nav ul li{
@@ -64,20 +78,19 @@ nav ul li{
 
 
 nav ul li a{
-    padding-left: 20px;
-    padding-top: 2px;
+    padding-right: 40px;
+    padding-top: 16px;
     margin: 0px;
     font-family: 'Kanit', sans-serif;
     font-size: 18px;
     text-decoration:none;
-    
 } 
 
 .nav-item{
     display: flex;
     flex-direction: flex-end;
     text-decoration:none;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Mulish', sans-serif;
     color:black;
 }
@@ -88,24 +101,21 @@ nav ul li a{
 }
 
 .button-container{
-    width: 170px;
-    padding: 10px;
-    margin: 8px;
-    height: 10px;
-    left: 148px;
-    top: 180px;
-    background: #2B59FF;
-    border-radius: 50px;
+    width: 245px;
+    padding-right:150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Mulish', sans-serif;
-    color:rgb(255, 255, 255);
-    text-decoration:none;
 }
 
 .button{
+    font-family: 'Mulish', sans-serif;  
     color:rgb(255, 255, 255);
+    background-color: #2B59FF;
+    border-radius: 50px;
+    padding: 7px;
+    font-size: 18px;
+    text-decoration:none;
 }
 
 .button-tamaño:hover{
@@ -123,6 +133,7 @@ nav ul li a{
         justify-content: center;
         justify-items: center;
         justify-self: center;
+        
     }
     nav ul {
         height: 120px;
@@ -148,6 +159,8 @@ nav ul li a{
     }
 }
 
+/***** PAG-1 *****/
+
 .pag1-container{
     display: flex;
     flex-direction: row;
@@ -156,6 +169,7 @@ nav ul li a{
     margin-top: 180px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 100px;
     padding-left: 150px;
     justify-content: space-around;
     width: 600px;
@@ -203,7 +217,17 @@ nav ul li a{
     border-radius: 10%;
     -webkit-animation: color-change-5x 8s linear infinite alternate both;
 	        animation: color-change-5x 8s linear infinite alternate both;
+}
 
+.animacion-movil-2{
+    position: absolute;
+    width: 245px;
+    height: 549px;
+    margin-top: 218px;
+    margin-left: 287px;
+    border-radius: 8%;
+    -webkit-animation: color-change-5x 8s linear infinite alternate both;
+	        animation: color-change-5x 8s linear infinite alternate both;
 }
 
 /*Animación móvil page-1*/
@@ -240,5 +264,156 @@ nav ul li a{
     100% {
       background: #3bd80d;
     }
+  }
+  
+  /***** PAG-2 *****/
+
+  .pag-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./laptop-2557572_1920.jpg);
+    height: 850px;
+  }
+
+  .pag-2-text{
+    font-family: Newsreader;
+    font-size: 80px;
+    color: #ffffff; 
+    width: 700px;
+    margin-left: 200px;
+    margin-top: 350px;
+  }
+
+  .button-container-pag-2{
+    width: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 210px;
+    height: 30px;
+    left: 148px;
+    top: 180px;
+    border: solid #ffffff 1px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+  }
+
+  .button-pag-2 {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  .button-container-pag-2:hover{
+    background-color: #18191a82;
+    transition: 0.2s;
+  }
+
+   /***** PAG-3 *****/
+
+   .pag-3{
+    height: 850px;
+    width: 700px;
+   }
+
+   .pag-3-container{
+    display: flex;
+    flex-direction: row;
+   }
+
+  .fila-1{
+      display: flex;
+      flex-direction:row;
+  }
+
+  .fila-2{
+      display: flex;
+      flex-direction:row;
+  }
+
+  .movil-pg3{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 150px;
+  }
+
+  .contenedor-filas{
+      margin-top: 250px;
+      
+      
+  }
+
+  h3{
+      width: 400px;
+      font-family: Kanit;
+      font-size: 30px;
+      text-align: center;
+  }
+
+  .parrafo-p3{
+      width: 400px;
+      font-family: 'Mulish', sans-serif;
+      color:#5c5c5c;
+      text-align: center;
+  }
+
+  .pag-3-item1{
+  margin-left: 150px;
+  padding-bottom: 25px;
+  width: 90px;
+  }
+
+  .pag-3-item2{
+    margin-left: 130px;
+    width: 120px;
+    padding-bottom: 0px;
+    }
+
+  .pag-3-item3{
+    margin-left: 150px;
+    width: 90px;
+    }
+
+  .pag-3-item4{
+    margin-left: 150px;
+    width: 88px;
+    }
+
+.fila-2 {
+  padding-top: 40px;
+}
+
+
+  /***** FOOTER *****/
+
+  footer{
+    background-color: #000000;
+    height: 150px;
+  }
+
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    font-family: Kanit;
+  }
+
+  .footer-list{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style:none;
+   }
+
+  .factoria{
+    display:flex;
+    color: #999;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .list-item{
+    color:#999;
+    text-decoration: none;
   }
   
